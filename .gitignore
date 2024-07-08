@@ -1,0 +1,9 @@
+# numpy binary
+*.npy
+
+# Jupyter Notebook
+.ipynb_checkpoints
+
+# Environments
+venv/
+.venv
