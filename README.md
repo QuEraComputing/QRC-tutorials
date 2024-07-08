@@ -1,2 +1,4 @@
 # QRC tutorials
  A set of tutorials for quantum reservoir learning. The tutorials reproduce proof-of-concept simulations and experiments from QuEra's [Large-scale quantum reservoir learning with an analog quantum computer paper](https://arxiv.org/abs/2407.02553). The tutorials are built on [Bloqade.jl](https://github.com/QuEraComputing/Bloqade.jl) and [Bloqade](https://github.com/QuEraComputing/bloqade-python) neutral atom quantum computing SDKs.
+
+ You will also find a `requirements.txt` file which lets you install the necessary Python dependencies required to run the `QRC Demo Aquila Submission.ipynb` notebook as well as a `Project.toml` that has the Julia dependencies for the `QRC Demo MNIST.ipynb` notebook.
