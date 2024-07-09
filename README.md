@@ -1,4 +1,10 @@
 # QRC tutorials
  A set of tutorials for quantum reservoir learning. The tutorials reproduce proof-of-concept simulations and experiments from QuEra's [Large-scale quantum reservoir learning with an analog quantum computer paper](https://arxiv.org/abs/2407.02553). The tutorials are built on [Bloqade.jl](https://github.com/QuEraComputing/Bloqade.jl) and [Bloqade](https://github.com/QuEraComputing/bloqade-python) neutral atom quantum computing SDKs.
 
+ The starting point of the tutorial are a proof-of-concept simulations based on [Bloqade.jl](https://github.com/QuEraComputing/Bloqade.jl), `QRC Demo MNIST.ipynb`. The notebook covers the basic quantum reservoir learning pipeline on an MNIST dataset example. The starting notebook introduces local detuning encoding, the choice of Hamiltonian parameter regime, and comparison with classical neural nets.
+
+ The tutorial on the simulation side is supplemented by two additional julia notebooks. `Classical Spin Reservoir Demo.ipynb` implements the classical spin reservoir on the MNIST data dervied from the quantum reservoir in the infinite (classical) spin limit and used extensively for comparisons in the paper. `QRC Demo Timeseries.ipynb` applies the quantum reservoir learning pipeline on the Santa Fe laser timeseries prediction task and introduces global pulse encoding along the way.
+
+ The second major part of the tutorial, `QRC Demo Aquila Submission.ipynb`, covers the simulations and experimental task submission to QuEra's Aquila based on [Bloqade](https://github.com/QuEraComputing/bloqade-python). The notebook follows the same quantum reservoir learning pipeline for MNIST dataset as in `QRC Demo MNIST.ipynb`, but adds the changes needed for efficient job submission through our python SDK, as well as direct data analysis with standard python machine learning SDKs.
+
  You will also find a `requirements.txt` file which lets you install the necessary Python dependencies required to run the `QRC Demo Aquila Submission.ipynb` notebook as well as a `Project.toml` that has the Julia dependencies for the `QRC Demo MNIST.ipynb` notebook.
