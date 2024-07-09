@@ -11,3 +11,5 @@ Manifest.toml
 # Environments
 venv/
 .venv
+
+.DS_Store
