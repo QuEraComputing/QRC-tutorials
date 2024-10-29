@@ -1,6 +1,9 @@
 # QRC tutorials
  A set of tutorials for quantum reservoir learning. The tutorials reproduce proof-of-concept simulations and experiments from QuEra's [Large-scale quantum reservoir learning with an analog quantum computer paper](https://arxiv.org/abs/2407.02553). The tutorials are built on [Bloqade.jl](https://github.com/QuEraComputing/Bloqade.jl) and [Bloqade](https://github.com/QuEraComputing/bloqade-python) neutral atom quantum computing SDKs.
 
+ [<img src="https://qbraid-static.s3.amazonaws.com/logos/Launch_on_qBraid_white.png" width="150">](https://account.qbraid.com?gitHubUrl=https://github.com/QuEraComputing/QRC-tutorials.git)
+
+
 ## Overview
 ![Overview of the quantum reservoir computing algorithm with QuEra's Aquila.](Images/QRC_overview.png)
 
