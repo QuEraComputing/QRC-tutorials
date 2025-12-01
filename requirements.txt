@@ -38,7 +38,7 @@ exceptiongroup==1.2.1
 executing==2.0.1
 fastjsonschema==2.20.0
 flatbuffers==24.3.25
-fonttools==4.53.1
+fonttools==4.61.0
 fqdn==1.5.1
 gast==0.6.0
 google-pasta==0.2.0
