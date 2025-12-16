@@ -35,7 +35,7 @@ decorator==5.2.1
 duet==0.2.9
 executing==2.2.1
 ffmpeg==1.4
-filelock==3.20.0
+filelock==3.20.1
 flatbuffers==25.9.23
 fonttools==4.61.0
 gast==0.7.0
