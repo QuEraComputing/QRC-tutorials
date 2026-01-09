@@ -146,7 +146,7 @@ typing-extensions==4.15.0
 tzdata==2025.2
 urllib3==2.6.1
 wcwidth==0.2.14
-werkzeug==3.1.4
+werkzeug==3.1.5
 wheel==0.45.1
 wrapt==2.0.1
 xyzservices==2025.11.0
