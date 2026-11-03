@@ -123,7 +123,7 @@ s3transfer==0.16.0
 scikit-learn==1.7.2
 scipy==1.16.3
 semver==3.0.4
-setuptools==80.9.0
+setuptools==84.1.0
 simplejson==3.20.2
 six==1.17.0
 sortedcontainers==2.4.0
