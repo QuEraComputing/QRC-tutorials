@@ -147,6 +147,6 @@ tzdata==2025.2
 urllib3==2.6.1
 wcwidth==0.2.14
 werkzeug==3.1.4
-wheel==0.45.1
+wheel==0.46.2
 wrapt==2.0.1
 xyzservices==2025.11.0
